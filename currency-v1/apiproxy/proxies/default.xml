@@ -2,7 +2,8 @@
 <ProxyEndpoint name="default">
 
 	<DefaultFaultRule name="all">
-		<AlwaysEnforce>true</Always
+		<AlwaysEnforce>true</AlwaysEnforce>
+		<!-- i fixed my bug -->
 
 		<Step>
 			<Condition>flow.apigee.error.code = null</Condition>
