@@ -22,7 +22,7 @@
 
 	<AssignVariable>
 		<Name>flow.apigee.error.reason</Name>
-		<Value>Bad Request</Value>
+		<Value>Invalid Request</Value>
 	</AssignVariable>
 
 </AssignMessage>
