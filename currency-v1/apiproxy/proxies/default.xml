@@ -5,6 +5,7 @@
 		<AlwaysEnforce>true</AlwaysEnforce>
 		<!-- i fixed my bug -->
 		<!-- add a comment -->
+		<!-- add another comment -->
 
 		<Step>
 			<Condition>flow.apigee.error.code = null</Condition>
@@ -51,7 +52,7 @@
 	</RouteRule>
 
 	<HTTPProxyConnection>
-		<BasePath>/money/v1</BasePath>
+		<BasePath>/currency/v1</BasePath>
 		<VirtualHost>secure</VirtualHost>
 	</HTTPProxyConnection>
 </ProxyEndpoint>
